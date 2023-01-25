@@ -11,11 +11,12 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 - `server`: a Laravel app, which comes with:
   - `Laravel 9`, `PHP 8.1`, and `MySQL`.
   - User system with authentication.
+  - Code generation using [laravel-generator](https://github.com/infyomlabs/laravel-generator).
+  - Admin panel using [laravel-ui-adminlte](https://github.com/infyomlabs/laravel-ui-adminlte).
   - The following packages:
     - [bepsvpt/secure-headers](https://github.com/bepsvpt/secure-headers).
     - [spatie/laravel-permission](https://github.com/spatie/laravel-permission).
     - [guzzlehttp/guzzle](https://github.com/guzzlehttp/guzzle).
-    - [infyomlabs/laravel-generator](https://github.com/infyomlabs/laravel-generator).
     - [rinvex/laravel-subscriptions](https://github.com/rinvex/laravel-subscriptions).
     - [propaganistas/laravel-phone](https://github.com/propaganistas/laravel-phone).
     - [cybercog/laravel-ban](https://github.com/cybercog/laravel-ban).
@@ -36,3 +37,6 @@ This turborepo has some additional tools already setup:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+
+
+### To start
