@@ -1,0 +1,35 @@
+{
+	"name": "PHP & MariaDB",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/starters",
+
+	"forwardPorts": [
+		3306,
+		8000, // server
+		3000  // app
+	],
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-contrib/features/pnpm:2": {}
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"eamodio.gitlens",
+				"Vue.volar",
+				"Vue.vscode-typescript-vue-plugin",
+				"christian-kohler.path-intellisense",
+				"bmewburn.vscode-intelephense-client"
+			]
+		}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
