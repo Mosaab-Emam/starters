@@ -10,6 +10,7 @@
         "codebyray/laravel-review-rateable": "^1.4",
         "cybercog/laravel-ban": "^4.7",
         "guzzlehttp/guzzle": "^7.5",
+        "infyomlabs/adminlte-templates": "^5.2",
         "infyomlabs/laravel-generator": "^5.4",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
